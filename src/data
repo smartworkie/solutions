@@ -1,0 +1,26 @@
+export const Sampledata= {
+   { id: 1,
+    category: 'word',
+    src:
+}
+{
+    id: 2, 
+    category: 'excel',
+    src:
+}
+{
+    id: 3, 
+    category: 'powerpoint',
+    src: 
+}
+{
+    id: 4,
+    category: 'pdf',
+    src: 
+}
+{
+    id: 5,
+    category: 'file conversion',
+    src: 
+}
+}
