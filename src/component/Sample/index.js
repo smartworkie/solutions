@@ -3,6 +3,8 @@ import React from 'react';
 import {Wrapper, Content} from './Sample.styles';
 import sample1 from '../../images/sample1.PNG';
 import sample2 from '../../images/sample2.PNG';
+import pdf1 from '../../images/pdf1.PNG';
+import pdf2 from '../../images/pdf2.PNG';
 const Sample = () => (
     
 <Wrapper>
@@ -12,7 +14,10 @@ const Sample = () => (
     <img src={sample1} alt='sample1'/><br/><br/>
     <img src={sample2} alt='sample2'/>
     </div>
-    <div><h3>PDF DOCUMENTS</h3></div>
+    <div><h3>PDF DOCUMENTS</h3>
+    <img src ={pdf1} alt='pdf1'/><br/><br/>
+    <img src={pdf2} alt ='pdf2'/>
+    </div>
     <div><h3>EXCEL DOCUMENTS</h3></div>
     <div><h3>POWERPOINT DOCUMENTS</h3></div>
     </section>

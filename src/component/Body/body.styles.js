@@ -22,11 +22,6 @@ section {
         color: inherit;
     }
 
-div{
-    :hover{
-    opacity: 0.9;
-    }
-}
 
 display: grid;
 grid-template-columns: 400px 400px ;
@@ -59,7 +54,7 @@ p {
     margin-top: 0px;
     @media screen and (max-width: 768px)
     {
-       font-size: 14px; 
+           font-size: 14px; 
     }
     
 }

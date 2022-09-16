@@ -24,6 +24,6 @@ app.get('/', (req,res) => {
     
     app.use(errorHandler)
 
-    const PORT = process.env.PORT || 500;
+    const PORT = process.env.PORT1 || 500;
 app.listen(PORT, console.log(`Server is listening on PORT ${PORT}`)
 );

@@ -64,6 +64,7 @@ export const Content = styled.div`
         opacity: 2.0;
         background-color: blue;
         color: grey;
+        
     }
     width: 200px;
     height: 30px;
@@ -80,12 +81,15 @@ export const Content = styled.div`
 
 .show {
 display: flex;
-flex-direction: row;
+flex-diretion: row;
 justify-content: center;
+
 @media screen  and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    
+    justify-content: left;
+    margin-left: 2px;
+    position: absolute;
 }
 }
 
