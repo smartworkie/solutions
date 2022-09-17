@@ -6,13 +6,16 @@ display: grid;
 grid-template-rows: 1fr 1fr 10fr;
 grid-gap: 10px;
 width: 400px;
+@media screen and (max-width: 500px) {
+    width: 300px;
+}
 }
 margin: 0 auto;
 .error{
     background-color: red;
     color: white;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     width: 300px;
     
     

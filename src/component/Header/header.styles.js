@@ -20,8 +20,9 @@ align-items: center;
 @media screen and (max-width: 700px){
     margin-left:2px;
 }
+
 @media screen and (max-width: 480px){
-    width:40px;
+    width: 80px;
 }
 }
 #logo {
@@ -31,6 +32,9 @@ align-items: center;
 
 @media screen and (max-width:700px){
 margin-left:2px;
+}
+@media screen and (max-width:480px){
+    display: none;
 }
 }
 a{
@@ -64,9 +68,8 @@ margin-left: -60px;
 @media screen and (max-width:535px){
     margin-left: -90px;
 }
-@media scrren and (max-width: 470px) {
-    margin-left: -110px;
-}
+
+    
 }
  
 .logged {
@@ -88,19 +91,15 @@ p {
         opacity: 0.7;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
    
     #login, #signup, #logout {
         border: 2px solid white;
         padding: 1px 1px;
         border-radius: 20%;
-        position: relative;
-        left: 12px;
+        margin-left: 7px;
     }
-     #logo {
-         position: relative;
-         right: 20px;
-     }
+    
     p {
         font-size: 14px;
         margin-left: 50px;

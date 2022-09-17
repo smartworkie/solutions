@@ -7,6 +7,12 @@ background-size: cover;
 height: 700px;
 margin: 0 auto;
 width: 95%;
+@media screen and (max-width: 768px){
+    height: 500px;
+}
+@media screen and (max-width: 400px) {
+    height: 450px;
+}
 `;
 
 export const Content=styled.div`
@@ -33,6 +39,9 @@ margin-bottom: 10px;
    grid-gap: 50px;
    
 }
+@media screen and (max-width: 400px){
+    grid-gap: 20px;
+}
 }
 
 h5{
@@ -56,6 +65,7 @@ p {
     {
            font-size: 14px; 
     }
+   
     
 }
 

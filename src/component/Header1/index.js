@@ -35,8 +35,8 @@ return(
    <Wrapper>
        <Content>
            
-<button  id ='bar'  onClick = {handleClick}>
-  {!showpage? <FaBars onClick = {handleClick} className = 'bars'/>:<AiOutlineClose onClick = {handleClick} className = 'bars'/>}
+<button  id ='bar' onClick={handleClick} >
+  {!showpage? <FaBars  className = 'bars'/>:<AiOutlineClose  className = 'bars'/>}
         
  </button>
 

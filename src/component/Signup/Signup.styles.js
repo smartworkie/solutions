@@ -6,6 +6,9 @@ export const Wrapper = styled.div`
     grid-gap: 2px;
     grid-template-rows: 50px 50px 500px;
     width: 400px; 
+    @media screen and (max-width: 500px) {
+        width: 300px;
+    }
 }
 width: 400px;
 height: 630px;
@@ -14,12 +17,10 @@ border-radius: 5%;
 margin: 0 auto;
 margin-bottom: 20px;
 overflow: hidden;
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     width: 300px;
 }
-@media screen and (max-width: 400px) {
-   
-}
+
 
 `;
 export const Content = styled.div`

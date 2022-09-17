@@ -98,6 +98,7 @@ justify-content: center;
     @media screen and (max-width: 768px) {
         display: block;
         height: 16px;
+        width: 15px;
         }
     }
     
@@ -106,6 +107,7 @@ justify-content: center;
     @media screen and (max-width: 768px) {
         display: block;
         height: 26px;
+        width: 30px;
         margin: 5px 9px;
         }
 }
