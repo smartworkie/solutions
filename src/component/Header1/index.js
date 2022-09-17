@@ -43,7 +43,7 @@ return(
     {showpage && ( 
     <div className ='show'>
     
-          <Link to = '/'>  <p className='padding'>Home</p></Link>
+          <Link to = '/solutions'>  <p className='padding'>Home</p></Link>
            <Link to = '/about'> <p className='padding'>About</p></Link>
            <Link to = '/faq'> <p className='padding'>F.A.Q</p></Link>
           <Link to ='/sample'>  <p className='padding'>Sample</p> </Link>
@@ -54,7 +54,7 @@ return(
        
      {!showpage && <div className = "intel">
     
-    <Link to = '/'>  <p  className ='padding'>Home</p></Link>
+    <Link to = '/solutions'>  <p  className ='padding'>Home</p></Link>
      <Link to = '/about'> <p className ='padding'>About</p></Link>
      <Link to = '/faq'> <p className ='padding'>F.A.Q</p></Link>
     <Link to ='/sample'>  <p className ='padding'>Sample</p> </Link>
