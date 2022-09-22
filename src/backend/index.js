@@ -25,5 +25,11 @@ app.get('/', (req,res) => {
     app.use(errorHandler)
 
     const PORT = process.env.PORT1 || 500;
+
+//server producion assets
+if (process.env.NODE_ENV==='production'){
+    app.use(express.static(path.join("build")));
+    app.get("*"), (req,res) => res.sendFile((path.resolve(__dirname, 'buid','index.html')))
+}
 app.listen(PORT, console.log(`Server is listening on PORT ${PORT}`)
 );
