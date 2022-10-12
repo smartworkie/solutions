@@ -35,6 +35,7 @@ margin-left:2px;
 }
 @media screen and (max-width:480px){
     display: none;
+    margin-left: 0px;
 }
 }
 a{
@@ -57,19 +58,23 @@ a{
     }
     @media screen and (max-width:1100px) {
         position: relative;
+        left: 90%;
+        }
+        @media screen and (max-width: 400px){
+
         left: 70%;
         }
+    @media screen and (max-width: 390px){
+        position: relative;
+        left: 60%;
+    }
         
 }
 #signup {
     @media screen and (max-width:650px){
 margin-left: -60px;
     }
-@media screen and (max-width:535px){
-    margin-left: -90px;
-}
 
-    
 }
  
 .logged {
@@ -98,8 +103,7 @@ p {
         padding: 1px 1px;
         border-radius: 20%;
         margin-left: 7px;
-    }
-    
+}  
     p {
         font-size: 14px;
         margin-left: 50px;

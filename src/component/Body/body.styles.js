@@ -42,6 +42,7 @@ margin-bottom: 10px;
 @media screen and (max-width: 400px){
     grid-gap: 20px;
 }
+
 }
 
 h5{
@@ -83,5 +84,4 @@ img{
        
     }
 }
-
 `;

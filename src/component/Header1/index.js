@@ -43,18 +43,18 @@ return(
     {showpage && ( 
     <div className ='show'>
     
-          <Link to = '/solutions'>  <p className='padding'>Home</p></Link>
+          <Link to = '/'>  <p className='padding'>Home</p></Link>
            <Link to = '/about'> <p className='padding'>About</p></Link>
            <Link to = '/faq'> <p className='padding'>F.A.Q</p></Link>
           <Link to ='/sample'>  <p className='padding'>Sample</p> </Link>
           <p onClick = {handleInner} className ='padding'><button className = 'button'>Support{inner? <FaAngleUp/>:<FaAngleDown/>}</button></p>
           </div>)}
-     {inner && <><p  className = 'support'><FaWhatsapp/></p>
+     {inner && showpage && <><p  className = 'support'><FaWhatsapp/></p>
        <p  className = 'support'> <AiOutlineMail/></p></>}
        
      {!showpage && <div className = "intel">
     
-    <Link to = '/solutions'>  <p  className ='padding'>Home</p></Link>
+    <Link to = '/'>  <p  className ='padding'>Home</p></Link>
      <Link to = '/about'> <p className ='padding'>About</p></Link>
      <Link to = '/faq'> <p className ='padding'>F.A.Q</p></Link>
     <Link to ='/sample'>  <p className ='padding'>Sample</p> </Link>

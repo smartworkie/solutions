@@ -29,8 +29,8 @@ const Header = () => {
    <Wrapper>
        <Content>
    <div>
-   <Link to ='/'solutions><img className='image' src={smart} alt='smart'/></Link>
-    <Link to = '/solutions'> <p id = 'logo'>smartSolutions</p></Link>
+   <Link to ='/'><img className='image' src={smart} alt='smart'/></Link>
+    <Link to = '/'> <p id = 'logo'>smartSolutions</p></Link>
     {  user?            <span className='logged'> Logged in as: {user.username||user.given_name}   </span>
  :  <Link to= '/signup'> <p id = 'signup'>SIGN UP</p></Link>}
 
