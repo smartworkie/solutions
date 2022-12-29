@@ -26,8 +26,6 @@
     "nodemon": "^2.0.16",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-google-drive-picker": "^1.2.0",
-    "react-google-login": "^5.2.2",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
@@ -43,9 +41,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install" 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
   },
   "eslintConfig": {
     "extends": [
