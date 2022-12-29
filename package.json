@@ -42,8 +42,8 @@
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
+    "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
