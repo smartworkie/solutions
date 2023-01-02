@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Wrapper, Content} from './header1.styles';
 import {FaBars, FaAngleUp, FaAngleDown, FaWhatsapp} from 'react-icons/fa';
 import {AiOutlineClose, AiOutlineMail} from 'react-icons/ai';

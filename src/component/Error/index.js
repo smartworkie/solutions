@@ -1,4 +1,4 @@
-import react from 'react';
+
 import {Content} from './Error.styles';
 
  const Error = () =>{

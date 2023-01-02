@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import background from '../../images/background.jpeg';
 
 export const Wrapper=styled.div`
 background-color: blue;
@@ -36,7 +35,7 @@ margin-bottom: 10px;
 
 @media screen and (max-width: 768px) {
     grid-template-columns: 200px 200px;
-   grid-gap: 50px;
+    grid-gap: 50px;
    
 }
 @media screen and (max-width: 400px){
@@ -69,7 +68,6 @@ p {
    
     
 }
-
 img{
     width: 100px;
     height: 100px;

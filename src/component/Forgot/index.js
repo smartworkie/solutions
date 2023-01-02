@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Spinner from '../Loading';
 import React, {useState} from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 import {Wrapper, Content} from './forgot.styles';
@@ -10,7 +10,7 @@ import {Wrapper, Content} from './forgot.styles';
     const [error, setError]= useState(false);
     const [loading, setLoading]=useState(false);
     const [message, setMessage] =useState(false);
-    const navigate = useNavigate()
+  
     const handleChange = (e) => {
   setEmail(e.target.value);
     }
